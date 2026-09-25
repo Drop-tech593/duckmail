@@ -1,7 +1,6 @@
 "use client"
 
 import type React from "react"
-
 import { HeroUIProvider } from "@heroui/react"
 import { ThemeProvider as NextThemesProvider } from "next-themes"
 import { ToastProvider } from "@heroui/toast"
@@ -12,7 +11,7 @@ export function Providers({ children }: { children: React.ReactNode }) {
     <HeroUIProvider>
       <NextThemesProvider
         attribute="class"
-        defaultTheme="light"
+        defaultTheme="dark"
         enableSystem={false}
         disableTransitionOnChange={false}
       >
@@ -24,7 +23,7 @@ export function Providers({ children }: { children: React.ReactNode }) {
             toastProps={{
               color: "primary",
               variant: "flat",
-              radius: "md",
+              radius: "sm",
               timeout: 4000,
             }}
           />
