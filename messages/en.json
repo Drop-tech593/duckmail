@@ -18,8 +18,8 @@
     "contentCopied": "Content copied"
   },
   "metadata": {
-    "title": "Temp Mail - Secure, Instant, Fast - DuckMail",
-    "description": "Protect your personal email address from spam, bots, phishing and other online abuse with DuckMail - secure temporary email service."
+    "title": "Phrygix // Anonymous Temporary Email",
+    "description": "Protect your personal email address from spam, bots, phishing and other online abuse with Phrygix — anonymous disposable temporary email."
   },
   "header": {
     "switchToLight": "Switch to light mode",
@@ -124,7 +124,7 @@
     "hostedHint": "Your hosted mailboxes are in the sidebar. Choose one to start reading, or create a temporary inbox."
   },
   "inboxIntro": {
-    "intro": "DuckMail is a free temporary email service. Opening the page gives you a working address right away — use it to sign up for sites and receive verification codes without exposing your real inbox or inviting follow-up marketing.",
+    "intro": "Phrygix is a free temporary email service. Opening the page gives you a working address right away — use it to sign up for sites and receive verification codes without exposing your real inbox or inviting follow-up marketing.",
     "features": {
       "noSignup": {
         "title": "No sign-up",
@@ -148,7 +148,7 @@
       "p1": "They only matter to members of the LinuxDo community. If you're just here to receive mail, ignore them: every built-in temporary domain is free and needs no account or sign-in, and the API can be called directly without any authentication.",
       "p2": "API Keys are issued free of charge to LinuxDo members. Signing in with a LinuxDo account lets you connect your own domains (LinuxDo trust level 2 or above) and manage hosted Microsoft mailboxes. That is all it adds — the temporary mailbox itself works the same for everyone."
     },
-    "poweredBy": "DuckMail runs its own backend, with Mail.tm as an optional fallback provider. Messages are kept only briefly — act on anything important promptly."
+    "poweredBy": "Phrygix runs its own backend, with Mail.tm as an optional fallback provider. Messages are kept only briefly — act on anything important promptly."
   },
   "messageList": {
     "inbox": "Inbox",
@@ -175,7 +175,7 @@
     "notSynced": "Initial sync not finished",
     "refresh": "Refresh",
     "paused": "Sync is paused. Showing cached mail.",
-    "needsReauth": "Microsoft authorization needs an update. You can still sign in to DuckMail and read cached mail.",
+    "needsReauth": "Microsoft authorization needs an update. You can still sign in to Phrygix and read cached mail.",
     "indexing": "Initial sync is still running. An empty list does not mean the Microsoft mailbox is empty.",
     "stale": "Results may be out of date while the next sync is pending.",
     "truncated": "The sync window limit was reached; this is not the full remote mailbox.",
@@ -200,7 +200,7 @@
     "back": "Back",
     "delete": "Delete",
     "deleteMobile": "Del",
-    "hideLocally": "Hide in DuckMail",
+    "hideLocally": "Hide in Phrygix",
     "hideLocallyDesc": "Hides it here only; the original Microsoft message is not deleted",
     "download": "Download",
     "downloadMobile": "DL",
@@ -224,7 +224,7 @@
     "usernameLabel": "Username",
     "passwordLabel": "Password",
     "importantNotice": "Important Notice",
-    "noPasswordRecovery": "duckmail.sbs does not provide password recovery. Please remember your password.",
+    "noPasswordRecovery": "Phrygix does not provide password recovery. Please remember your password.",
     "fillAllFields": "Please fill in all required fields",
     "emailTaken": "This email address is already in use. If this is your account, you can try logging in.",
     "rateLimited": "Too many requests. Please wait a moment and try again.",
@@ -249,10 +249,10 @@
     "emailLabel": "Email Address",
     "usernameLabel": "Username",
     "usernamePlaceholder": "your_name",
-    "passwordLabel": "DuckMail access password",
+    "passwordLabel": "Phrygix access password",
     "importantNotice": "Important Notice",
-    "noPasswordRecovery": "duckmail.sbs does not provide password recovery. Please make sure you remember the correct password.",
-    "hostedPasswordHint": "Use the DuckMail access password set for this mailbox, not the Microsoft account password. The owner can reset it in the management panel; temporary mailboxes still cannot recover passwords.",
+    "noPasswordRecovery": "Phrygix does not provide password recovery. Please make sure you remember the correct password.",
+    "hostedPasswordHint": "Use the Phrygix access password set for this mailbox, not the Microsoft account password. The owner can reset it in the management panel; temporary mailboxes still cannot recover passwords.",
     "fillUsernameAndDomain": "Please fill in username and select a domain",
     "fillEmailAndPassword": "Please fill in email address and password",
     "loginFailed": "Login failed, please check email address and password"
@@ -314,7 +314,7 @@
     "recoverStep1": "Create a new account with the same username as before",
     "recoverStep2": "Set a new password (can be the same or different from before)",
     "recoverStep3": "Emails to your original address will continue to be received normally",
-    "apology": "We apologize for any inconvenience caused by this update. Thank you for your support of DuckMail!",
+    "apology": "We apologize for any inconvenience caused by this update. Thank you for your support of Phrygix!",
     "understand": "I Understand"
   },
   "providerWarning": {
@@ -347,8 +347,8 @@
   },
   "privacy": {
     "title": "Privacy Policy",
-    "subtitle": "DuckMail Privacy Policy",
-    "description": "This document explains policies for the collection, use, and disclosure of personal information on duckmail.sbs. This privacy policy deals with personally-identifiable information (referred to as data below) that may be collected by this site.",
+    "subtitle": "Phrygix Privacy Policy",
+    "description": "This document explains policies for the collection, use, and disclosure of personal information on Phrygix. This privacy policy deals with personally-identifiable information (referred to as data below) that may be collected by this site.",
     "dataCollection": "COLLECTION OF DATA",
     "dataCollectionContent": "To operate the service and investigate errors, server and reverse proxy logs may record client IPs, request methods, endpoints, status codes and error categories. Abuse protection also keeps short-lived IP counters and penalty state. Expiring in-memory state does not delete logs; log retention depends on the deployment's rotation settings.",
     "dataUse": "USE OF DATA",
@@ -371,32 +371,32 @@
     "useCase4": "When a website requires email verification but you prefer not to share your real address, a temporary email is the perfect solution.",
     "howToUseTitle": "Get Started in 3 Simple Steps",
     "step1Title": "Get Your Inbox Instantly",
-    "step1Desc": "Open DuckMail and a temporary email address is automatically generated for you — no registration, no waiting.",
+    "step1Desc": "Open Phrygix and a temporary email address is automatically generated for you — no registration, no waiting.",
     "step2Title": "Copy & Use It Anywhere",
     "step2Desc": "Copy the generated address and paste it into any signup form that requires email verification.",
     "step3Title": "Receive Emails in Real Time",
-    "step3Desc": "Check the DuckMail inbox — your verification code or confirmation email will arrive within seconds. Done!",
+    "step3Desc": "Check the Phrygix inbox — your verification code or confirmation email will arrive within seconds. Done!",
     "faqTitle": "Frequently Asked Questions",
     "q1": "What is a temporary email address?",
-    "a1": "A temporary email address (also known as a disposable or throwaway email) is a short-term email address that can receive messages without requiring any personal information to set up. DuckMail provides free, instant, no-registration temporary email to help protect your privacy online.",
-    "q2": "Is DuckMail completely free to use?",
-    "a2": "Yes, DuckMail is 100% free. No account registration, no payment, and no software download required — just open the website and start using your temporary inbox right away.",
+    "a1": "A temporary email address (also known as a disposable or throwaway email) is a short-term email address that can receive messages without requiring any personal information to set up. Phrygix provides free, instant, no-registration temporary email to help protect your privacy online.",
+    "q2": "Is Phrygix completely free to use?",
+    "a2": "Yes, Phrygix is 100% free. No account registration, no payment, and no software download required — just open the website and start using your temporary inbox right away.",
     "q3": "How long does my temporary email address last?",
     "a3": "SMTP accounts created through the web UI default to no expiry. API-created accounts default to 24 hours when expiresIn is omitted. Messages have a separate retention policy and are not kept indefinitely with the account. After clearing browser data, sign in with the original address and password; recreating an existing address does not recover its password. Hosted accounts do not use temporary-account expiresIn.",
     "q4": "Is using a temporary email safe?",
-    "a4": "DuckMail controls mailbox access with passwords and tokens. Your browser stores login details, while the backend stores accounts and password verification data. Abuse logs and rate-limit state may include IP addresses. Protect your password, token and API Key, and avoid relying on temporary email for important long-term records.",
-    "q5": "Can I send emails with DuckMail?",
-    "a5": "DuckMail is currently a receive-only service, focused on helping users receive verification codes and confirmation emails quickly. For sending emails, please use your regular email provider. We concentrate on delivering fast, reliable, and private temporary email reception.",
+    "a4": "Phrygix controls mailbox access with passwords and tokens. Your browser stores login details, while the backend stores accounts and password verification data. Abuse logs and rate-limit state may include IP addresses. Protect your password, token and API Key, and avoid relying on temporary email for important long-term records.",
+    "q5": "Can I send emails with Phrygix?",
+    "a5": "Phrygix is currently a receive-only service, focused on helping users receive verification codes and confirmation emails quickly. For sending emails, please use your regular email provider. We concentrate on delivering fast, reliable, and private temporary email reception.",
     "q6": "Who should use a temporary email service?",
     "a6": "Anyone who values online privacy can benefit from a disposable email. It's especially useful for everyday users who want to avoid spam, developers testing email workflows, people joining events or trials without sharing real contact details, and anyone needing a quick one-time email verification.",
     "q7": "Is my email content stored or read by anyone?",
-    "a7": "DuckMail temporarily stores received messages; retention and capacity depend on backend settings. Save important content promptly. Microsoft hosting synchronizes recent message lists and reads or temporarily caches bodies on demand; local cache cleanup does not delete Microsoft originals. Mailbox tokens, access passwords and authorized owner API Keys can provide access. Other providers apply their own retention policies."
+    "a7": "Phrygix temporarily stores received messages; retention and capacity depend on backend settings. Save important content promptly. Microsoft hosting synchronizes recent message lists and reads or temporarily caches bodies on demand; local cache cleanup does not delete Microsoft originals. Mailbox tokens, access passwords and authorized owner API Keys can provide access. Other providers apply their own retention policies."
   },
   "apiDocs": {
     "back": "Back",
     "language": "中文",
     "title": "API Documentation",
-    "subtitle": "Welcome to the DuckMail API",
+    "subtitle": "Welcome to the Phrygix API",
     "description": "This API allows you to automate the registration process at various sites which require email confirmation for testing purposes. Usage of our API for illegal activity is strictly prohibited.",
     "generalInfo": "General Information",
     "baseUrl": "Base URL",
@@ -404,7 +404,7 @@
     "authDescription": "Public domain listing and public temporary account creation allow anonymous access. After creating an account, call POST /token separately to obtain a mailbox token. Mail access uses a Bearer Token; owners can also exchange an API Key for a hosted mailbox token.",
     "apiKey": "API Key",
     "apiKeyDescription_pre": "One API Key accesses all your private domains and hosted mailboxes, including account creation and hosted mailbox management. The key starts with `dk_`. Listing, importing, and managing Microsoft hosted mailboxes requires the key. GET /domains and creating a temporary mailbox only need it for private domains. You can obtain your API Key from ",
-    "apiKeyDescription_link": "https://domain.duckmail.sbs",
+    "apiKeyDescription_link": "https://domain.phrygix.app",
     "apiKeyDescription_post": ".",
     "endpoints": "API Endpoints",
     "errorHandling": "Error Handling",
@@ -413,7 +413,7 @@
     "rateLimitsDescription": "Current direct API limits per IP: 1,000 requests/second with a valid token or API Key; 1,000 without authentication, except account creation at 200 requests/second. Persistent invalid requests may be temporarily restricted.",
     "rateLimits": "Rate Limits and Retries",
     "contributions": "Contributions",
-    "contributionsDescription": "We welcome developers to create integrations, libraries, and tools for the DuckMail API. If you have any contributions, feel free to contact us or submit a pull request on our GitHub repository.",
+    "contributionsDescription": "We welcome developers to create integrations, libraries, and tools for the Phrygix API. If you have any contributions, feel free to contact us or submit a pull request on our GitHub repository.",
     "githubRepo": "GitHub Repository",
     "contactUs": "Contact Us",
     "llmDocs": "AI-Friendly Docs",
@@ -466,7 +466,7 @@
     "messageDeleteDesc": "Delete an SMTP temporary message. For hosted mailboxes, only hide the local record; the original Microsoft message is not deleted.",
     "hostedGroup": "Microsoft Hosting",
     "hostedListDesc": "List hosted accounts you own, 30 per page, same Hydra pagination as GET /domains. API Key required.",
-    "hostedImportDesc": "Import up to 500 hosted mailboxes per batch with an API Key. password is an independent DuckMail access password of at least 8 characters and at most 72 UTF-8 bytes, not the Microsoft password. protocol defaults to auto: try Graph first and fall back to IMAP only for an explicit protocol-permission failure. Explicit graph/imap uses only that protocol. A 202 response contains importId/statusUrl; poll for results, since acceptance does not mean all accounts succeeded.",
+    "hostedImportDesc": "Import up to 500 hosted mailboxes per batch with an API Key. password is an independent Phrygix access password of at least 8 characters and at most 72 UTF-8 bytes, not the Microsoft password. protocol defaults to auto: try Graph first and fall back to IMAP only for an explicit protocol-permission failure. Explicit graph/imap uses only that protocol. A 202 response contains importId/statusUrl; poll for results, since acceptance does not mean all accounts succeeded.",
     "hostedImportGetDesc": "Inspect per-row verification and creation results. Poll every 2 seconds, stop when complete, and honor Retry-After on 429. Microsoft credentials and passwords are never returned. API Key required.",
     "hostedPatchDesc": "Update a hosted account label, pause sync, or enable/disable it. API Key required.",
     "hostedDeleteDesc": "Remove hosting, credentials, and cache. Does not delete Microsoft mail. API Key required.",
