@@ -1,9 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-/* Phrygix Fonts */
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
 
 * {
   box-sizing: border-box;
@@ -23,7 +22,6 @@ body {
   font-family: 'JetBrains Mono', 'Courier New', monospace;
 }
 
-/* Phrygix — Display font for headings */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
 }
@@ -33,13 +31,11 @@ a {
   text-decoration: none;
 }
 
-/* Phrygix — Selection color */
 ::selection {
   background: #00f0ff;
   color: #0a0a0c;
 }
 
-/* Phrygix — Custom scrollbar */
 ::-webkit-scrollbar {
   width: 10px;
   height: 10px;
@@ -57,7 +53,6 @@ a {
   background: #00b8cc;
 }
 
-/* Phrygix — Neon glow utilities */
 .phrygix-glow-cyan {
   box-shadow: 0 0 20px rgba(0, 240, 255, 0.5);
 }
@@ -66,27 +61,22 @@ a {
   box-shadow: 0 0 20px rgba(255, 0, 85, 0.5);
 }
 
-/* Mobile optimizations */
 @media (max-width: 768px) {
-  /* Prevent mobile scaling */
   html {
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
   }
 
-  /* Improve touch experience */
   button, [role="button"] {
     -webkit-tap-highlight-color: transparent;
   }
 
-  /* Smooth scrolling */
   * {
     -webkit-overflow-scrolling: touch;
   }
 
-  /* Optimize input fields */
   input, textarea {
-    font-size: 16px; /* Prevent iOS zoom */
+    font-size: 16px;
   }
 }
 
